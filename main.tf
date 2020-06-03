@@ -46,7 +46,7 @@ resource "aws_network_interface" "web" {
 }
 
 resource "aws_instance" "web" {
-  ami           = "ami-22b9a343" # us-west-2
+  ami           = "ami-029bf83e14803c25f" # amzn2-ami-ecs-hvm-2.0.20200430-x86_64-ebs
   instance_type = "t2.nano"
   associate_public_ip_address = true
   tags = {
