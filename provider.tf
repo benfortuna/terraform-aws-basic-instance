@@ -7,7 +7,3 @@ terraform {
     organization = "AMP"
   }
 }
-
-provider "aws" {
-  region = "ap-southeast-2"
-}
