@@ -2,8 +2,8 @@ terraform {
   backend "remote" {
 
     workspaces {
-      name = "aws-basic-instance-harness"
+      prefix = "aws-basic-instance-"
     }
-    organization = "Telstra"
+    
   }
 }
