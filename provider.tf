@@ -4,6 +4,6 @@ terraform {
     workspaces {
       prefix = "aws-basic-instance-"
     }
-    organization = "AMP"
+    organization = "Telstra"
   }
 }
